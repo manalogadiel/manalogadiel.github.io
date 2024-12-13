@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadiel Manalo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="options">
+          <button onclick="showSection('homepage')">Homepage</button>
+          <button onclick="showSection('skills')">Skills & Expertise</button>
+          <button onclick="showSection('projects')">Project Showcase</button>
+          <button onclick="showSection('sdg')">SDG Feature</button>
+          <button onclick="showSection('contact')">Contact</button>
+        </nav>
+        <div class="main-container">
+          <div class="logo-container">
+            <img src="contents/gadielwin1.png" alt="Logo">
+          </div>
+          <div class="text-container">
+            <h1>GADIEL MANALO</h1>
+            <p>CS 1101</p>
+          </div>
+        </div>
+      </header>
+      
+    <main>
+        <section id="homepage" class="section">
+            <h2>Homepage</h2>
+            <p>I’m Gadiel Manalo, currently a first-year Computer Science student 
+                at Batangas State University The National Engineering University - 
+                Alangilan Campus.
+            Explore how my skills, projects, and aspirations contributes 
+            for a better world aligned with the Sustainable Ddevelopment Goals (SDGs).</p>
+            <div class="image-grid">
+                <img src="contents/SKILLS & EXPERTISE.png" alt="Skills Image" class="grid-item img-fit" onclick="showSection('skills')">
+                <img src="contents/Project Showcase.png" alt="Projects Image" class="grid-item img-fit" onclick="showSection('projects')">
+                <img src="contents/Feature.png" alt="SDG Image" class="grid-item img-fit" onclick="showSection('sdg')">
+                <img src="contents/Contact.png" alt="Contact Image" class="grid-item img-fit" onclick="showSection('contact')">
+            </div>
+        </section>
+
+        <section id="skills" class="section hidden">
+            <h2>Skills and Expertise</h2>
+            <p>With a passion for technology and innovation, I have developed a diverse skill set 
+                spanning technical, creative, and interpersonal domains. This section showcases my 
+                proficiency in programming languages, technical skills, and personal strengths that 
+                empower me to approach challenges with creativity and problem-solving.
+                <br><br><i>"Tell me and I'll forget; show me and I may remember; involve me and I'll understand."
+                <br>- Chinese Proverb</i></p>
+            <div class="imgskill">
+                <img src="contents/d.jpg" alt="Pic1">
+                <img src="contents/b.png" alt="Logo">
+                <img src="contents/c.jpg" alt="Logo">
+                <img src="contents/e.JPG" alt="Logo">
+                <img src="contents/a.png" alt="Logo">
+
+            </div>
+            
+                <p> Programming Languages: Python, C++, HTML, CSS <br>
+                    Technical Skills: Machine Learning, Web Development, Video Editing <br>
+                    Soft Skills: Leadership, Collaboration, Communication, Problem-solving <br>
+                    Others: Music, Gaming</p>
+        </section>
+        
+        <section id="projects" class="section hidden">
+            <h2>Project Showcase</h2>
+            <p>Welcome to my Project Showcase! 🚀 <br>
+                Explore a variety of projects demonstrating creativity and innovation. 
+                
+                This page highlights a collection of innovative projects crafted with 
+                passion and purpose. From problem-solving solutions to creative experiments, 
+                each project is presented with insightful descriptions, and visuals
+
+                These projects demonstrates Sustainable Development Goals, aiming to leave a 
+                positive impact on technology and community.
+                
+                Dive in to see how these projects come to life and solve real-world challenges!<br><br></p>
+            <div class="two-column-container">
+                <div class="column">
+                    <a href="https://sites.google.com/view/sdg1-hope-educate-aspire-learn" target="_blank" title="Click me">
+                        <img src="contents/2a.png" alt="Project A Image" class="section-image">
+                    </a>
+                    
+                    </a>
+                    <p><strong>Project HEAL:</strong> An advocacy aligned with SDG 1 "No Poverty" entitled "Self-reliance Towards Improved Life Quality: Fighting Poverty".
+                        <br><br>The advocates aim to improve the quality of life among communities. 
+                        It has a goal to reduce poverty rate, empower the economy, restore human dignity
+                         and strengthen men's abilities and skills. The advocacy group will disseminate 
+                         information issues concerning poverty and ways to alleviate/fight this problem. 
+                         Information on job listings/postings and skills training and workshops will be 
+                         the focus of the group. Through these efforts, the project 
+                         "Self-reliance Towards Improved Life Quality: Fighting Poverty" can strengthen 
+                         individuals' abilities and self-reliance. <br>
+                        Visit our page by clicking the image (website via google sites)</p>
+                    
+                </div>
+        
+            <div class="column">
+                <div class="slider">
+                    <div class="images">
+                        <input type="radio" name="slide" id="img1" checked>
+                        <input type="radio" name="slide" id="img2">
+                        <input type="radio" name="slide" id="img3">
+                        <input type="radio" name="slide" id="img4">
+                        <input type="radio" name="slide" id="img5">
+            
+                        <img src="contents/j6.png" class="m1" alt="img1">
+                        <img src="contents/j7.png" class="m2" alt="img2">
+                        <img src="contents/j1.jpg" class="m3" alt="img3">
+                        <img src="contents/j2.jpg" class="m4" alt="img4">
+                        <img src="contents/j3.jpg" class="m5" alt="img5">
+                    </div>
+                    <div class="dots">
+                        <label for="img1"></label>
+                        <label for="img2"></label>
+                        <label for="img3"></label>
+                        <label for="img4"></label>
+                        <label for="img5"></label>
+                    </div>
+                </div>  
+                <p><strong>Project DEO-STAMP:</strong> An innovative solution aligned with SDG 11 (Sustainable Cities and Communities).
+                <br><br>This study aims to develop more environmentally friendly and toxic free
+                when inhaled toilet deodorizers, specifically the Deo-Stamp, a Pomelo-based
+                stick-on or gel stamp Deodorizer. This has come to the aid of individuals’ terrible
+                matter regarding the sanitation and the smell of comfort rooms. Pomelo is its
+                main ingredient due to its citric acid, which is qualified as a cleaning property.
+                Unlike the harmful chemical components of commercial deodorizers, using this
+                natural ingredient promotes organic, ecological, and safer sanitation for
+                household and school toilet facilities.<br><br></p>
+                   
+            </div>
+        </section>
+
+        <section id="sdg" class="section hidden">
+            <h2>SDG Feature Section</h2>
+            <p>
+                Our Commitment to No Poverty & Sustainable Communities,
+                creating equitable opportunities and fostering resilient communities 
+                are at the heart of sustainable development. This section showcases how my
+                projects, skills, and aspirations align with SDG 1: No Poverty and SDG 11: 
+                Sustainable Communities.
+                
+                Through innovation, collaboration, and problem-solving, I aim to 
+                address economic disparities, promote equal access to resources, 
+                and build sustainable, inclusive communities that ensure improved 
+                living conditions and opportunities for all." <br><br>
+            </p>
+
+            <div class="sdg-grids">
+                <a href="https://sdg.neda.gov.ph/goal-1/" target="_blank" title="Click me">
+                    <img src="https://sdg.neda.gov.ph/wp-content/uploads/2022/09/SDG1.gif" alt="SDG Visual" class="section2-image">
+                </a>
+                <a href="https://sdg.neda.gov.ph/goal-11/" target="_blank" title="Click me">
+                    <img src="https://sdg.neda.gov.ph/wp-content/uploads/2022/09/sdg11.gif" alt="SDG Visual" class="section2-image">
+                </a>
+            </div>
+            
+            <div class="wrapper3">
+                <div class="container3">
+                    <input type="radio" name="slide" id="c1" checked>
+                    <label for="c1" class="card">
+                        <div class="row">
+                            <div class="icon">1</div>
+                            <div class="description">
+                                <h4>GIFT GIVING</h4>
+                                <p>Gift Giving for Elementary to Senior High School Students</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c2">
+                    <label for="c2" class="card">
+                        <div class="row">
+                            <div class="icon">2</div>
+                            <div class="description">
+                                <h4>Outreach Ministries</h4>
+                                <p>My Weekend Ministry by Teaching and Gift Giving to Kids</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c3">
+                    <label for="c3" class="card">
+                        <div class="row">
+                            <div class="icon">3</div>
+                            <div class="description">
+                                <h4>ADVOCACY DEVELOPMENT</h4>
+                                <p>A Google Site Based Website That Fosters to Fight Poverty</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c4">
+                    <label for="c4" class="card">
+                        <div class="row">
+                            <div class="icon">4</div>
+                            <div class="description">
+                                <h4>Clean-Up Fair</h4>
+                                <p>Organization that Promotes a Resilient Community through Environmental Care</p>
+                            </div>
+                        </div>
+                    </label>
+                    <input type="radio" name="slide" id="c5">
+                    <label for="c5" class="card">
+                        <div class="row">
+                            <div class="icon">5</div>
+                            <div class="description">
+                                <h4>Innovation Deo-Stamp</h4>
+                                <p>A Feasibility Study that Replaces Toxic Cleaning Products and Aids Sanitation Issues </p>
+                            </div>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="sdg-info-container">
+                <div class="sdg-column">
+                    <h3>SDG 1: No Poverty<br>Self-Reliance Towards Improved Life Quality<br><br></h3>
+                    <p>
+                        Our project, <strong>"Self-reliance Towards Improved Life Quality: 
+                            Fighting Poverty,"</strong> is dedicated to addressing the root 
+                            causes of poverty by empowering communities with knowledge, 
+                            skills, and opportunities. The project focuses on improving 
+                            the quality of life among marginalized communities by:<br><br>
+                    
+                    
+                        <i>Reducing the poverty rate through sustainable programs.<br>
+                        Restoring human dignity by creating opportunities for self-empowerment.<br>
+                        Providing job postings, skills training, and 
+                            workshops to equip individuals with economic 
+                            opportunities.</i> <br><br>
+                    
+                    
+                        Moreover, the group conducts community outreach programs such as gift giving to alleviate immediate needs and build stronger community bonds. By disseminating information on poverty issues and strategies to combat it, this advocacy seeks to build self-reliance and confidence among individuals, helping them pave the way toward a sustainable future.
+                    </p>
+                </div>
+
+                <div class="sdg-column">
+                    <h3>SDG 11: Sustainable Communities<br> Deo-Stamp<br><br></h3>
+                    <p>
+                        In part of advocating Sustainable Communities, we are proud to 
+                        create a Feasibility study on <strong>Deo-Stamp</strong>, an innovative and eco-friendly
+                        deodorizer. This study focuses on:<br><br>
+                    
+                    
+                    <i>Creating a Pomelo-based, toxic-free deodorizer 
+                        that promotes safer and greener sanitation.<br>
+                        Using natural citric acid properties from Pomelo, a non-toxic, 
+                        organic alternative to harmful chemical-based deodorizers.<br>
+                        Offering cleaner, safer alternatives for households 
+                        and schools, ensuring that sanitation needs are met without 
+                        compromising environmental health.</i> <br><br>
+                    
+                        Additionally, our initiative has extended its efforts by engaging in community cleaning projects. This hands-on activity not only promotes environmental health but also fosters community cooperation and sustainability.
+                    </p>
+                </div>
+            </div>
+        </section>      
+  
+        <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        </head>
+  
+        <section id="contact" class="sectionC hidden">
+            <div class="content-container">
+            
+            <div class="text-section">
+                <h2>Connect with Me</h2>
+                <p class="intro-text">
+                I'm excited to connect with you! Reach me out on your favorite platform or send me an email. Let’s innovate together!
+                </p>
+                <div class="contact-buttons">
+                
+                <a href="https://www.facebook.com/Mvpgadielwin/" class="contact-btn" target="_blank" title="Gadiel Manalo">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </a>
+                
+                
+                <a href="https://www.instagram.com/manalogadiel/" class="contact-btn" target="_blank" title="@manalogadiel">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                
+                
+                <a href="https://github.com/manalogadiel" class="contact-btn" target="_blank" title="manalogadiel">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                
+                
+                <a href="mailto:gadielmanalo19@gmail.com" class="contact-btn" title="gadielmanalo19@gmail.com">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+                <div class="music-player">
+                    <audio controls class="audio-control">
+                        <source src="contents/FillHer.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; Gadiel Manalo 2024</p>
+    </footer>
+    
+
+     <script>
+        function showSection(sectionId) {
+        document.querySelectorAll('.section, .sectionC').forEach(el => el.classList.add('hidden'));
+        document.getElementById(sectionId).classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
